@@ -1,0 +1,16 @@
+# Python program for Bubble Sort
+
+n = int(input('Enter the length of the list: '))
+A = []
+for i in range(1,n+1):
+    a = int(input(f'Enter the no.{i} list value: '))
+    A.append(a)
+
+print(f'your List is,\n', A )
+
+for i in range(len(A)):
+    for j in range(0,len(A)-1):
+        if A[j]>A[j+1]:
+            A[j],A[j+1]=A[j+1],A[j]
+
+print('the sorted list is \n',A)

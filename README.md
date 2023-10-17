@@ -1,7 +1,7 @@
-# Python-Practice-programs
+# Python_Practice_Programs
 
 Here listed simple python programs which are coded by me,
 
-from creating these programs i've strongly learned the python basics and how it works
+By Creating these programs i've strongly learned the python basics and how it works.
 
-The program questions are gathered from geeks for geeks .
+These programs questions are gathered from geeks for geeks , and I personally coded the solutions

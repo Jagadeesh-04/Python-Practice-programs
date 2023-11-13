@@ -1,6 +1,5 @@
 # Python program to print prime number
 # A prime number is a number which is divided by 1 and that number itself .
-
 num = int(input('Enter The Number:'))
 for i in range(2,num):
     if num%i==0:

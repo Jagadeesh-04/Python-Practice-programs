@@ -1,0 +1,16 @@
+# Program to find the largest element in a list
+
+# To create a list
+'''list1 = []
+# Creating a list 
+tem = int(input("Enter the length of the list :"))
+for i in range(1,tem+1):
+    num = int(input(f"Enter the {i}.position list element :"))
+    list1.append(num) '''
+
+list1 = [17,43,52,86,75,10,94,57] # fixed list
+largest = list1[0]
+for i in list1:
+    if largest < i:
+        largest = i 
+print("The largest element in the given list is : ",largest)
